@@ -1,18 +1,20 @@
 # do2dk ( DO2 Development Kit )
 
-Development kit for building DO2os installer images
+Development kit for building DO2os installer images.
+
+For a pre-built image of the DO2os iso, see the [do2iso latest release](https://github.com/DO2-Momo/do2iso/releases/latest)
 
 
-# Instructions
+<br/>
 
+<br/>
+<br/>
 
-> ALL THE FOLLOWING COMMANDS REQUIRE ROOT ACCESS
+# Dependencies
 
-## Dependencies
+> Arch Based or DO2os distribution is required
 
-You need an Archlinux or DO2os distribution as a development environement
-
-Here is how you can install dependencies
+Make sure you install all package dependencies
 
 ```
 pacman -Sy - < .deps
@@ -56,7 +58,6 @@ You can flash this iso to a usb flash drive with your application of choice.
 
 ## Flash
 
-<br/>
 
 If the iso file is distributed to a windows system, you could use `rufus`, [see here](https://rufus.ie/en).
 
