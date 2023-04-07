@@ -1,6 +1,6 @@
 
 ISO_DIR=./do2iso
-WORK_DIR=/tmp/do2iso
+WORK_DIR=./tmp
 BUILD_DIR=./dist
 
 if [ ! -d $WORK_DIR ]; then
