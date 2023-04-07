@@ -1,0 +1,8 @@
+[submodule "do2iso"]
+	path = do2iso
+	url = https://github.com/DO2-Momo/do2iso
+	branch = sharp
+[submodule "yarp"]
+	path = yarp
+	url = https://github.com/DO2-Momo/yarp
+	branch = sharp
