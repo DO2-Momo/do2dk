@@ -25,7 +25,7 @@ pacman -Sy - < .deps
 Clone the development kit
 
 ```
-git clone https://github.com/DO2-Momo/do2dk
+git clone --recurse-submodules https://github.com/DO2-Momo/do2dk
 ```
 
 Enter the `do2dk` directory
