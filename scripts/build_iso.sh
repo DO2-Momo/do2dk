@@ -8,3 +8,5 @@ if [ ! -d $WORK_DIR ]; then
 fi
 
 mkarchiso -v -w $WORK_DIR -o $BUILD_DIR $ISO_DIR
+
+rm -rf $WORK_DIR
