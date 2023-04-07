@@ -19,6 +19,7 @@ pacman -Sy - < .deps
 ```
 
 <br/>
+<br/>
 
 ## Clone
 
@@ -34,22 +35,11 @@ Enter the `do2dk` directory
 cd do2dk
 ```
 
-Run the setup script
-
-```
-source ./scripts/setup.sh
-```
-
+<br/>
 <br/>
 
 
-## Building
-
-Compile the `yarp` installer
-
-```sh
-make installer
-```
+## Build
 
 Compile the `do2iso` image
 
@@ -62,9 +52,9 @@ Once built, your `iso` is provided in `./dist` as `do2os-YYYY.MM.DD-x86_64.iso`.
 You can flash this iso to a usb flash drive with your application of choice.
 
 <br/>
+<br/>
 
-## Flashing
-
+## Flash
 
 <br/>
 

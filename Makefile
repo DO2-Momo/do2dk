@@ -1,4 +1,3 @@
-
 setup:
 	chmod +x ./scripts/build_installer.sh;\
 	chmod +x ./scripts/build_iso.sh;\
@@ -7,8 +6,8 @@ setup:
 clean:
 	./scripts/clean.sh
 
-installer:
+installer: setup
 	./scripts/build_installer.sh
 
-iso:
+iso: installer
 	./scripts/build_iso.sh
