@@ -41,7 +41,7 @@ cd do2dk
 <br/>
 
 
-## Build
+## Compiler
 
 Compiler l'image `do2iso`
 
@@ -54,7 +54,7 @@ Vous pouvez flasher cet iso sur une clé USB avec l'application de votre choix.
 <br/>
 <br/>
 
-## Éclair
+## Graver
 
 
 Si le fichier iso est distribué sur un système Windows, vous pouvez utiliser `rufus`, [voir ici](https://rufus.ie/en).
