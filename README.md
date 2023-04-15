@@ -1,5 +1,7 @@
 # do2dk ( DO2 Development Kit )
 
+> [Version française](./LISEZMOI.md)
+
 Development kit for building DO2os installer images.
 
 For a pre-built image of the DO2os iso, see the [do2iso latest release](https://github.com/DO2-Momo/do2iso/releases/latest)
