@@ -19,7 +19,7 @@ For a pre-built image of the DO2os iso, see the [do2iso latest release](https://
 Make sure you install all package dependencies
 
 ```
-pacman -Sy - < .deps
+pacman -Sy git
 ```
 
 <br/>
@@ -37,6 +37,11 @@ Enter the `do2dk` directory
 
 ```sh
 cd do2dk
+```
+
+
+```sh
+pacman -Sy - < .deps
 ```
 
 <br/>
