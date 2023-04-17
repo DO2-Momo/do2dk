@@ -16,6 +16,8 @@ For a pre-built image of the DO2os iso, see the [do2iso latest release](https://
 
 > Arch Based or DO2os distribution is required
 
+> ALL COMMANDS BELOW REQUIRE ROOT ACCESS
+
 Make sure you install all package dependencies
 
 ```
