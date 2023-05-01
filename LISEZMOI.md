@@ -14,10 +14,10 @@ Pour une image pré-construite de l'iso DO2os, consultez la [dernière version d
 
 > Une distribution basée sur Arch ou DO2os est requise
 
-Assurez-vous d'installer toutes les dépendances de package
+> TOUTES LES COMMANDES DOIVENT CE FAIRE EN MODE D'ACCÈS PRIVILÉGIÉ (ROOT)
 
 ```
-pacman -Sy - < .deps
+pacman -Sy git
 ```
 
 <br/>
@@ -35,6 +35,12 @@ Entrer dans le do2dk répertoire
 
 ```sh
 cd do2dk
+```
+
+Assurez-vous d'installer toutes les dépendances de package
+
+```
+pacman -Sy - < .deps
 ```
 
 <br/>
